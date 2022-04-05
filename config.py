@@ -10,6 +10,8 @@ class Config:
         self.password = ''
         self.password_vpn = ''
         self.email = ''
+        self.province = ''
+        self.city = ''
         self.district = ''
         self.inschool = ''
         self.campus = ''
