@@ -86,9 +86,9 @@ def checkin(cfg: Config, use_vpn=True) -> None:
 
     job = click_mytable()
     job.add_child(
-        dropdown_province(cfg.province),
-        dropdown_city(cfg.city),
-        dropdown_district(cfg.district),
+        dropdown_province("福建省"),
+        dropdown_city("福州市"),
+        dropdown_district("鼓楼区"),
         dropdown_inschool(cfg.inschool).add_child(
             dropdown_campus(cfg.campus),
             dropdown_stay_in_school("住校内"),
